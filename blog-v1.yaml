@@ -16,10 +16,10 @@ spec:
   containers:
   - args:
     - postgres
-    image: quay.io/xinick/blog:db-v1
+    image: quay.io/jinyoung/blog:db-v2
     name: db
     ports:
     - containerPort: 8080
       hostPort: 80
-  - image: quay.io/xinick/blog:web-v1
+  - image: quay.io/jinyoung/blog:web-v2
     name: web
